@@ -1,0 +1,52 @@
+# ===== Python virtual environments =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Python cache & compiled files =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== PyTorch / Transformers cache =====
+.cache/
+.huggingface/
+.hf/
+*.safetensors
+*.bin
+*.pt
+
+# ===== Datasets =====
+data/
+datasets/
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== VSCode / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Windows =====
+*.exe
+*.dll
+
+# ===== Model outputs =====
+outputs/
+checkpoints/
+
+# ===== Python packaging =====
+*.egg-info/
+dist/
+build/
