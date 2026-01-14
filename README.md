@@ -21,3 +21,22 @@ below is the result if torch loaded successfully
 >> device name: NVIDIA RTX A2000 12GB
 >> device count: 1
 ```
+You should install transformers using bellow command
+```aiignore
+pip install -U transformers accelerate peft bitsandbytes datasets sentencepiece
+```
+
+You should make config file using below command
+```aiignore
+accelerate config
+
+Compute environment:  single machine
+Distributed training: no
+Do you want to use GPU?  yes
+Mixed precision:  fp16 (recommend bf16)
+```
+
+check the environment using below command if it is set well or not
+```aiignore
+python -c "import transformers, accelerate, peft, bitsandbytes; print('ready for 4bit')"
+```
