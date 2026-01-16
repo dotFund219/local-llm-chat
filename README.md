@@ -40,3 +40,8 @@ check the environment using below command if it is set well or not
 ```aiignore
 python -c "import transformers, accelerate, peft, bitsandbytes; print('ready for 4bit')"
 ```
+
+Now you can chat with AI using below command
+```aiignore
+python chat.py
+```
