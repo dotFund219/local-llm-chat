@@ -1,6 +1,8 @@
 # local-llm-chat
 This is the project implementing the chatbot using LLM.
 
+<video src="videos/llm-demo.mp4" controls width="800"></video>
+
 ## Development Environment
 This below command makes the local environment for only this project.
 ```aiignore
